@@ -1,0 +1,59 @@
+%card {
+    margin: 0.2rem;
+    padding: 0.3rem;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.container {
+    @extend %card;
+    background-color: rgba(134, 118, 93, 0.685);
+}
+
+.header {
+    @extend %card;
+    text-align: center;
+
+    img {
+
+        @extend %card;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        border-radius: 50%;
+    }
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgb(97, 91, 91);
+    width: 75%;
+}
+
+.main {
+    @extend %card;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    p {
+        font-size: 18px;
+    }
+}
+
+.footer {
+    @extend %card;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+    p {
+        font-size: 15px;
+        font-weight: bold;
+        a {
+            color: black;
+        }
+    }
+}
