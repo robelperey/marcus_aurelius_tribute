@@ -1,6 +1,6 @@
 # marcus_aurelius_tribute
 
-This web page is only for practincing my html and css skills.
+This web page is only intended for me to practice my html and css skills.
 
 I don't intent to use this web page for anything other that to gain experince in web designing.
 
